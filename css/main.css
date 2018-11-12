@@ -1,0 +1,64 @@
+body{
+    background-image: url(../img/blueasy.jpg);
+    margin: 0px;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menufull{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.center button{
+    border: none;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: rgba(0,0,0,.6)!important;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+ul{
+    list-style: none;
+}
+
+.homebtn a{
+    display: ;
+    color: #4bcaff;
+    text-decoration: none;
+}
+
+.homebtn button{
+    border-color: #4bcaff;
+}
+
+header p{
+    text-align: center;
+}
+
+button {
+    background-color: Transparent;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: url(segoeui.ttf);
+    background: rgba(0,0,0,.6)!important;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
