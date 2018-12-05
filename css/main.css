@@ -1,6 +1,17 @@
 body{
     background-image: url(../img/blueasy.jpg);
+    background-repeat: no-repeat;
     margin: 0px;
+    min-height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: rgba(0,0,0,.6)!important;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+    margin-bottom: 250px;
 }
 
 span{
@@ -19,13 +30,7 @@ span{
     border: none;
 }
 
-header{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background: rgba(0,0,0,.6)!important;
-    -webkit-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}
+
 ul{
     list-style: none;
 }
@@ -48,7 +53,15 @@ button {
     background-color: Transparent;
 }
 
-p{
+main{
+    font-family: segoeui;
+}
+
+main p{
+    font-size: 30px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,4 +74,17 @@ p{
 a{
     text-decoration: none;
     color: white;
+}
+
+footer{
+    margin-top: 250px;
+    background: rgba(0,0,0,.6)!important;
+    -webkit-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+footer a{
+
+    border-right: solid black 1px;
+    color: black;
 }
